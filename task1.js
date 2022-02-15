@@ -5,6 +5,6 @@ let fun1=function(){
 
 let fun2=function(fun1){
     let a=fun1();
-    console.log(a);
+    console.log(a+5);
 }
 fun2(fun1);
